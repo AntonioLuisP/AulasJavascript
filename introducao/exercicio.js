@@ -14,7 +14,11 @@ recebeObj(endereco)
 
 // 2 questao
 function pares(x, y) {
-
+    for (let k = x+1; k < y; k++){
+        if(k % 2 == 0){
+            console.log(k)
+        }
+    }
 }
 pares(32, 321);
 
