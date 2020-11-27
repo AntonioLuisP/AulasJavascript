@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var sexo = 'M', idade = 23;
+        var feminino;
+
+        // AND
+        if(sexo == 'M' && idade >=18){
+            alert('do sexo masculino e maior de 18 anos');
+        }
+
+        // OR
+        if(sexo == 'M' || idade >=18){
+            alert('é do sexo masculino ou tem 18 anos');
+        }
+
+        // NOT
+        if(sexo != 'M'){
+            alert('não é do sexo masculino');
+        }
+
+        if(sexo == 'F'){
+            feminino = true;
+        } else{
+            feminino = false;
+        }
+
+        //TERNARIO
+        var retorno = (sexo == 'M') ? 'MASCULINO' : 'FEMININO';
+
+    </script>
+</body>
+
+</html>
