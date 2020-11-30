@@ -127,6 +127,7 @@ console.log(usuario2)
 
 // nao consegui
 // const usuario3 = { ...user, { endereco, cidade: "Lontras"}}
+const usuario3 = {...user, endereco = () => {...user.endereco, cidade: "Lontras"}}
 // console.log(usuario3)
 
 //6 questao
